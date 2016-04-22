@@ -9,7 +9,7 @@ module.exports = function( req, res, next ){
       if( err ) return next( err );
 
       res.render( 'edit', {
-        title   : 'Express Todo Example',
+        title   : 'SuperList',
         todos   : todos,
         current : req.params.id
       });
