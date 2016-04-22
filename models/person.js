@@ -1,5 +1,5 @@
 var mongoose = require('mongoose' );
-mongoose.connect('mongodb://cloris:cloris9885@@ds013901.mlab.com:13901/clorishung');
+mongoose.connect('mongodb://cloris:cloris9885@ds013901.mlab.com:13901/clorishung');
 var Schema   = mongoose.Schema;
 
 var Todo = new Schema({
